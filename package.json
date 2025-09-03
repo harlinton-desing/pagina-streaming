@@ -1,0 +1,34 @@
+{
+  "name": "barangay-management-system",
+  "version": "1.0.0",
+  "description": "A comprehensive barangay management system with user authentication, resident management, document handling, and permit issuance.",
+  "main": "multiFile.js",
+  "scripts": {
+    "start": "node multiFile.js",
+    "dev": "nodemon multiFile.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^1.20.2",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^5.1.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-session": "^1.18.2",
+    "mongoose": "^7.8.7",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "barangay",
+    "management",
+    "system",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC"
+}
